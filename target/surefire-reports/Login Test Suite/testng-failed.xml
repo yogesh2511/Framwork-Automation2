@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Login Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.rangam.SourceVets.Listeners.CustomListeners"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.rangam.SourceVets.TestCases.RegistrationTest">
+        <methods>
+          <include name="loginAsVeteransEmailFieldBlank"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rangam.SourceVets.TestCases.RegistrationTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Login Test Suite] -->

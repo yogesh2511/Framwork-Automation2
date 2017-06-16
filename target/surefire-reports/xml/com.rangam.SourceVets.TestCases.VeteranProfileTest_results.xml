@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.817">
+  <properties />
+  
+  
+            <testcase name="goToCarrerInterestTab" time="9.133" classname="com.rangam.SourceVets.TestCases.VeteranProfileTest" />
+                <testcase name="veteranProfileTestMandatoryFieldRequiredAlertMessageVerification" time="5.684" classname="com.rangam.SourceVets.TestCases.VeteranProfileTest" />
+      
+</testsuite>
